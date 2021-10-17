@@ -66,7 +66,7 @@ export default {
             this.axios
                 .get(`https://lyftrondata-interview.test/api/export/products`)
                 .then(response => {
-                  alert('Exported')
+                  alert(response.data)
                 });
         }
     }
